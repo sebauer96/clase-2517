@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Roboto-Thin;
+    src: url('./fonts/Roboto/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url('./fonts/Roboto/Roboto-Light.ttf');
+}
+
+
+.titulo1{
+    font-family: 'Rubik Moonrocks', 'Arial';
+    font-size: 2em;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.titulo2 {
+    font-family: 'Roboto-Thin';
+}
+
+.titulo3 {
+    font-family: 'Roboto-Light';
+}
+
+.titulo4{
+    width: 50%;
+    text-decoration: underline wavy blue;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.lista {
+    list-style: square;
+}
