@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -39,4 +40,31 @@ form {
     align-items: center;
     flex-direction: column;
     width: 50%;
+}
+
+.boton {
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #390099;
+    color: white;
+    font-weight: 600;
+}
+
+label {
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9em;
+    width: 80%;
+}
+
+input {
+    margin-top: 5px;
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
 }
