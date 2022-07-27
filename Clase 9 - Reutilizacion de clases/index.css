@@ -1,0 +1,26 @@
+.cuadrado1{
+    background-color: red;
+}
+.cuadrado2{
+    background-color: blue;
+}
+.cuadrado3{
+    background-color: yellow;
+}
+.cuadrado4{
+    background-color: brown;
+}
+.cuadrado5{
+    background-color: violet;
+}
+.cuadrado6{
+    background-color: purple;
+}
+.cuadrado7{
+    background-color: orange;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+}
