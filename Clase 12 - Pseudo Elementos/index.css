@@ -1,0 +1,42 @@
+.titulo-encabezado::first-letter {
+    font-size: 5em;
+    color: red;
+}
+
+
+.parrafo::first-line {
+    color: blue;
+    background-color: red;
+}
+
+.uwu::before {
+    content: '♥';
+    color: rebeccapurple;
+}
+
+.uwu::after {
+    content: '♥';
+    color: yellow;
+}
+
+.tooltip[data-info] {
+    position: relative;
+    text-decoration: underline;
+    color: #00F;
+    cursor: help;
+}
+
+.tooltip[data-info]:hover::after {
+    content: attr(data-info);
+    position: absolute;
+    left:0;
+    top:24px;
+    min-width: 200px;
+    border: 1px #aaaaaa solid;
+    border-radius: 10px;
+    background-color: #ffffcc;
+    padding: 12px;
+    color: #000000;
+    font-size: 14px;
+    z-index: 1;
+}

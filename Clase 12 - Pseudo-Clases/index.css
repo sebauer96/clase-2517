@@ -1,0 +1,67 @@
+h2 {
+    color:white;
+    background-color: cadetblue;
+}
+
+h2:hover {
+    color: black;
+    background-color: darkorange;
+}
+
+a:link {
+    color: blueviolet;
+    background-color: black;
+}
+
+a:visited {
+    color: orange;
+    background-color: blue;
+}
+
+.container-first-child p:first-child {
+    text-decoration: underline;
+    color: tomato;
+}
+
+span:first-of-type {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+input:focus {
+    background-color: cadetblue;
+    color: brown;
+    border: 3px solid yellow;
+    outline: none;
+}
+
+.first p:nth-child(even) {
+    color: blue;
+    background-color: yellow;
+}
+
+.first p:nth-child(odd) {
+    color: white;
+    background-color: red;
+}
+
+.second p:nth-child(3n) {
+    color: chartreuse;
+    background-color: crimson;
+}
+
+.third p:nth-child(3n+2){
+    color: black;
+    background-color: violet;
+}
+
+.forth p:nth-child(-n+5){
+    color: chocolate;
+    background-color: darkseagreen;
+}
+
+.forth p:nth-child(n+6){
+    color: blue;
+    background-color: orange;
+}
