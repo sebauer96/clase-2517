@@ -1,0 +1,132 @@
+/* @keyframes trasladar {
+    from {
+        transform: translateX(0px) translateY(0px);
+        background-color: violet;
+    }
+
+    to {
+        transform: translateX(400px) translateY(800px);
+        background-color: blue;
+    }
+} */
+
+@keyframes trasladar {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    50% {
+        transform: translateX(800px);
+        border-radius: 50%;
+    }
+
+   100% {
+        transform: translateX(400px) translateY(800px);
+    }
+}
+
+@keyframes rotar-elemento {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes escalar-elemento {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(3);
+    }
+}
+
+@keyframes cambiar-color {
+    0% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}
+
+@keyframes trasladar-x {
+    0% {
+        transform: translateX(0px);
+    }
+
+   100% {
+        transform: translateX(800px);
+    }
+}
+
+.cuadrado {
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    animation-name: trasladar-x;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+
+.cuadrado2 {
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    animation-name: trasladar-x;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+.cuadrado3 {
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    animation-name: trasladar-x;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.cuadrado4 {
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    animation-name: trasladar-x;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+.cuadrado5 {
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    animation-name: trasladar-x;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.cuadrado6 {
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    animation-name: trasladar-x;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(1,.05,.87,-0.35)
+}
