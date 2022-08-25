@@ -1,0 +1,23 @@
+.container-grid {
+    width: 50%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 2fr 1fr 2fr 1fr;
+}
+
+.item-1 {
+    background-color: red;
+    color: white;
+}
+.item-2 {
+    background-color: blue;
+    color: white;
+}
+.item-3 {
+    background-color: yellow;
+}
+.item-4 {
+    background-color: green;
+    color: white;
+}

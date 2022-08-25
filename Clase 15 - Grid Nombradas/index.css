@@ -1,0 +1,27 @@
+.grid {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 0.5fr [y3];
+}
+.header {
+    background-color: darkred;
+    grid-column-start: x0;
+    grid-column-end: x3;
+}
+.sidebar {
+    background-color: black; 
+    grid-row: y1 / y2;
+    color: white;
+}
+.content {
+    background-color: orange;
+    grid-column: x1/x3;
+    grid-row: y1/y3;
+}
+.footer {
+    background-color: green;
+    grid-column: x0/x3;
+    grid-row: y2;
+}
