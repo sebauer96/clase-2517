@@ -1,0 +1,100 @@
+@keyframes rotate_right {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate_left{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes translate_cloud {
+    0% {
+        transform: translateY(0px)
+    }
+
+    100% {
+        transform: translateY(30px)
+    }
+}
+
+
+#countryObjects {
+    animation-name: rotate_right;
+    animation-duration: 40s;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#airplane1 {
+    animation-name: rotate_right;
+    animation-duration: 30s;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+#airplane2 {
+    animation-name: rotate_right;
+    animation-duration: 20s;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+#floatingGlobe {
+    animation-name: rotate_left;
+    animation-duration: 160s;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#cloud3 {
+    animation-name: translate_cloud;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+#cloud2 {
+    animation-name: translate_cloud;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+#cloud1 {
+    animation-name: translate_cloud;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+#windmill{
+    animation-name: rotate_right;
+    animation-duration: 2s;
+    transform-origin: 331px 201px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
